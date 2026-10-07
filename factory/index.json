@@ -1,0 +1,85 @@
+{
+ "schema": "rfactory.factory-index/2",
+ "scenarios": [
+  {
+   "file": "factory/live5_long.json",
+   "title": "Live factory \u00b7 5 mobile manipulators \u00b7 auto mode (recorded)",
+   "orders": 155,
+   "mms": 5,
+   "variant": "parts",
+   "makespan_s": 1942.25,
+   "throughput_per_hour": 287.3
+  },
+  {
+   "file": "factory/mixed9.json",
+   "title": "Nine mixed orders \u00b7 3 mobile manipulators",
+   "orders": 9,
+   "mms": 3,
+   "variant": "parts",
+   "makespan_s": 201.95,
+   "throughput_per_hour": 160.4
+  },
+  {
+   "file": "factory/mixed9_1mm.json",
+   "title": "Nine mixed orders \u00b7 1 mobile manipulator",
+   "orders": 9,
+   "mms": 1,
+   "variant": "parts",
+   "makespan_s": 589.55,
+   "throughput_per_hour": 55.0
+  },
+  {
+   "file": "factory/mixed9_5mm.json",
+   "title": "Nine mixed orders \u00b7 5 mobile manipulators",
+   "orders": 9,
+   "mms": 5,
+   "variant": "parts",
+   "makespan_s": 180.5,
+   "throughput_per_hour": 179.5
+  },
+  {
+   "file": "factory/mixed9_grid.json",
+   "title": "Comparison: part jobs, fine-grid fleet planning \u00b7 3 MMs",
+   "orders": 9,
+   "mms": 3,
+   "variant": "parts",
+   "makespan_s": 367.8,
+   "throughput_per_hour": 88.1
+  },
+  {
+   "file": "factory/mixed9_kits.json",
+   "title": "Baseline: one MM per kit \u00b7 nine mixed orders \u00b7 3 MMs",
+   "orders": 9,
+   "mms": 3,
+   "variant": "kits",
+   "makespan_s": 547.05,
+   "throughput_per_hour": 59.2
+  },
+  {
+   "file": "factory/cars6.json",
+   "title": "Six cars \u00b7 3 mobile manipulators",
+   "orders": 6,
+   "mms": 3,
+   "variant": "parts",
+   "makespan_s": 177.45,
+   "throughput_per_hour": 121.7
+  },
+  {
+   "file": "factory/stream15.json",
+   "title": "Order stream (one every 20 s) \u00b7 3 mobile manipulators",
+   "orders": 15,
+   "mms": 3,
+   "variant": "parts",
+   "makespan_s": 370.55,
+   "throughput_per_hour": 145.7
+  }
+ ],
+ "models": [
+  "tower",
+  "wall",
+  "car",
+  "bridge",
+  "duck",
+  "house"
+ ]
+}
